@@ -1,0 +1,26 @@
+
+.movie {
+    width: 400px;
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+}
+
+.movie img {
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.movie_data {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.movie_title {
+    text-align: center;
+}
